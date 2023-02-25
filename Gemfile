@@ -28,5 +28,4 @@ end
 # These gems will only be used when we are running tests
 group :test do
   gem "database_cleaner"
-  gem "rspec"
-end
+  gem 'rspec', '~> 3.12'end
